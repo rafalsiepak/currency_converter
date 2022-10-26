@@ -1,0 +1,47 @@
+html, body {
+    max-width: 450px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+
+.form__labelText {
+    width: 150px;
+    display: inline-block;
+    F margin-right: 5px;
+}
+
+.form__field {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 5px;
+}
+
+.form__button {
+    width: 100%;
+    border: none;
+    background-color: black;
+    color: #ccc;
+    padding: 10px;
+
+}
+
+.form__fieldset {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px 0px;
+}
+
+.form__legend {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
