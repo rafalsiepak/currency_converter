@@ -1,0 +1,10 @@
+.element {
+    width: 400px;
+    height: 300px;
+    resize: both;
+    overflow: auto;
+    background-image: url("../images/landscape.jpg");
+    background-size: 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
