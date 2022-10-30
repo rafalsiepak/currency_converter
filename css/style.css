@@ -1,6 +1,10 @@
 html, body {
-    max-width: 450px;
-    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url("../images/landscape.jpg");
+    background-position: center;
     box-sizing: border-box;
 }
 
@@ -8,11 +12,23 @@ html, body {
     box-sizing: inherit;
 }
 
+.container {
+    display: flex;
+    flex-basis: 700px;
+    align-items: center;
+    justify-content: center;
+    background-color: #ccc;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 30px black;
+
+}
 
 .form__labelText {
     width: 150px;
     display: inline-block;
-    F margin-right: 5px;
+    margin-right: 5px;
 }
 
 .form__field {
